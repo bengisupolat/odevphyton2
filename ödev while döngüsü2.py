@@ -1,0 +1,9 @@
+stok_miktari=10000
+i=0
+alinan_urun=100
+satilan_urun=500
+fark=alinan_urun-satilan_urun
+while(stok_miktari>0):
+    stok_miktari=stok_miktari+fark
+    i=i+1
+print(i)
